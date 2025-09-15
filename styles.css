@@ -1,0 +1,73 @@
+header { 
+    background-color: #535353; 
+    color: white; 
+    text-align: center; 
+   
+}
+
+p { 
+    font-size: 16px; 
+    line-height: 1.5; 
+    margin: 10px 0; 
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("Images/ONI\ BAKRUND\ V2.webp");
+    background-position: center;
+    padding-top: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+
+.Rubrik1 {
+  font-size: 32px;
+  color: #ffffff;
+  text-align: left;
+  
+  
+}
+
+.headern { display: grid; grid-template-columns: 0.1fr 1fr 2fr; align-items: center; padding: 10px;  border:solid black 20px;}
+
+.Rubriktext { text-align: left; padding-left: 20px; }
+
+.logo { width: 300px; height: auto;  }
+
+.rightheader { text-align: left;
+  
+  
+  
+
+
+  }
+
+  .Rightheadertext { font-size:60px;}
+
+
+
+ .cards{ display: grid; grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  padding: 50px;
+  gap: 50px;
+  color: white; 
+ 
+ }
+
+ .card1 { border:solid 5px white;
+padding:20px;
+
+background-color: #535353;}
+ .card2{border:solid 5px white;
+padding:20px;background-color: #535353;}
+ .card3{border:solid 5px white;
+padding: 20px;background-color: #535353;}
+
+.Cardimage { height:600px; width:auto;
+}
